@@ -2,7 +2,7 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="AP_TumbleWeed_Race"]</xpath>
+    <xpath>/Defs/ThingDef[defName="AP_TumbleWeed_Race"]/race/wildBiomes</xpath>
     <!-- If it does, do this replacement. -->
     <match Class="PatchOperationReplace">
       <success>Always</success>
