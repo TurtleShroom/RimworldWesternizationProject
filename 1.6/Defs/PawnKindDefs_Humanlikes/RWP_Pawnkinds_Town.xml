@@ -117,7 +117,7 @@
 	<apparelRequired Inherit="False">
 		<li>RWP_Apparel_Overalls</li>
 	</apparelRequired>
-    <apparelTags Inherit="False">
+    <apparelTags>
 		<li>RWPWesternWear</li>
 		<li>CallOfCthulhu_Rancher</li>
 		<li>CallOfCthulhu_Farmer</li>
@@ -197,6 +197,7 @@
 	  <li>RoyalTier1</li>
 	  <li>RoyalTier2</li>
 	  <li>Dame</li>
+	  <li>Aristocrat</li>
     </apparelTags>
   </PawnKindDef>
   <!-- ==== (Town) Trader ==== -->

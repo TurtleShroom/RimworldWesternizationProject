@@ -33,6 +33,9 @@
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>
+	<weaponTags>
+		<li>RWPMelee</li>
+	</weaponTags>
   </ThingDef>
   <ThingDef Name="RWPBaseMeleeWeapon_Sharp" ParentName="RWPBaseMeleeWeapon" Abstract="True">
     <recipeMaker>
@@ -101,6 +104,8 @@
       <li>IndustrialMelee</li>
       <li>IndustrialMeleeBasic</li>
       <li>IndustrialMeleeDecent</li>
+	  <li>Knife</li>
+	  <li>Dagger</li>
     </weaponTags>
     <!-- SHUT MY MOUTH AND SLAP MY GRANDMA! IT NOW ACCEPTS STUFF!! -->
     <costStuffCount>40</costStuffCount>

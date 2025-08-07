@@ -230,6 +230,7 @@
     </apparelRequired>
     <weaponTags>
       <li>RWPRifle</li>
+	  <li>RWPSniper</li>
     </weaponTags>
     <apparelTags>
       <li>RWPBanditWear</li>
