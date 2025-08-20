@@ -3,11 +3,11 @@
 <Patch>
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="TableMachining"]/building/unpoweredWorkTableWorkSpeedFactor</xpath>
+		<xpath>Defs/ThingDef[defName="TableMachining"]/building/unpoweredWorkTableWorkSpeedFactor</xpath>
 		<!-- If it DOES NOT, add this. -->
 		<nomatch Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="TableMachining"]/building</xpath>
+			<xpath>Defs/ThingDef[defName="TableMachining"]/building</xpath>
 			<value>
 				<unpoweredWorkTableWorkSpeedFactor>0.25</unpoweredWorkTableWorkSpeedFactor>
 			</value>

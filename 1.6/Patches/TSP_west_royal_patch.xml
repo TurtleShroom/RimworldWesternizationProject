@@ -84,10 +84,10 @@
       <!-- </li> -->
       <li Class="PatchOperationConditional" MayRequire="Ludeon.RimWorld.Royalty">
         <!-- Does this exist? -->
-        <xpath>/Defs/ThingDef[defName="Apparel_HatTop"]/apparel/tags</xpath>
+        <xpath>Defs/ThingDef[defName="Apparel_HatTop"]/apparel/tags</xpath>
         <!-- If it does, add this. -->
         <match Class="PatchOperationAdd">
-          <xpath>/Defs/ThingDef[defName="Apparel_HatTop"]/apparel/tags</xpath>
+          <xpath>Defs/ThingDef[defName="Apparel_HatTop"]/apparel/tags</xpath>
           <value>
             <li>Royal</li>
             <li>RoyalTier2</li>
@@ -96,7 +96,7 @@
         </match>
         <!-- If it DOES NOT, add this instead. -->
         <nomatch Class="PatchOperationAdd">
-          <xpath>/Defs/ThingDef[defName="Apparel_HatTop"]/apparel</xpath>
+          <xpath>Defs/ThingDef[defName="Apparel_HatTop"]/apparel</xpath>
           <value>
             <tags>
               <li>Royal</li>

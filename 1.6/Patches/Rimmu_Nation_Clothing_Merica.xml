@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
     <Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="RNApparel_Jeans_Generic"]</xpath>
+		<xpath>Defs/ThingDef[defName="RNApparel_Jeans_Generic"]</xpath>
 		<match Class="PatchOperationSequence">
 			<success>Always</success>
 			<operations>
 				<!-- Jeans -->
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName = "RNApparel_Jeans_Generic"]/apparel/tags</xpath>
+					<xpath>Defs/ThingDef[defName = "RNApparel_Jeans_Generic"]/apparel/tags</xpath>
 					<success>Always</success>
 					<value>
 						<li>Usa</li>
@@ -29,7 +29,7 @@
 				</li>
 				<!-- Suede Jacket -->
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName = "RNApparel_SuedeJacket_Generic"]/apparel/tags</xpath>
+					<xpath>Defs/ThingDef[defName = "RNApparel_SuedeJacket_Generic"]/apparel/tags</xpath>
 					<success>Always</success>
 					<value>
 						<li>Usa</li>

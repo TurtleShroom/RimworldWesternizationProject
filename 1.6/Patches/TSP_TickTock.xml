@@ -17,11 +17,11 @@
 
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="ZCL_AlarmClock"]/researchPrerequisites</xpath>
+    <xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/researchPrerequisites</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="ZCL_AlarmClock"]/researchPrerequisites</xpath>
+      <xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/researchPrerequisites</xpath>
       <value>
         <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
       </value>
@@ -31,11 +31,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="ZCL_CuckooClock"]/researchPrerequisites</xpath>
+    <xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/researchPrerequisites</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="ZCL_CuckooClock"]/researchPrerequisites</xpath>
+      <xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/researchPrerequisites</xpath>
       <value>
         <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
       </value>
@@ -45,11 +45,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="ZCL_GrandfatherClock"]/researchPrerequisites</xpath>
+    <xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/researchPrerequisites</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="ZCL_GrandfatherClock"]/researchPrerequisites</xpath>
+      <xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/researchPrerequisites</xpath>
       <value>
         <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
       </value>
@@ -59,11 +59,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/researchPrerequisites</xpath>
+    <xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/researchPrerequisites</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/researchPrerequisites</xpath>
+      <xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/researchPrerequisites</xpath>
       <value>
         <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
       </value>
@@ -73,11 +73,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/researchPrerequisites</xpath>
+    <xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/researchPrerequisites</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/researchPrerequisites</xpath>
+      <xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/researchPrerequisites</xpath>
       <value>
         <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>
       </value>
@@ -87,11 +87,11 @@
 	
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/researchPrerequisites</xpath>
+    <xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/researchPrerequisites</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/researchPrerequisites</xpath>
+      <xpath>Defs/ThingDef[defName="ADH_clock_A_A_FURNITURE"]/researchPrerequisites</xpath>
       <value>
 		<li>ComplexFurniture</li>
         <li MayRequire="mlie.rimworldwesternizationproject">RWP_Watchmaking</li>

@@ -3,11 +3,11 @@
 <Patch>
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/apparel/tags</xpath>
 			<value>
 				<li>RWPSheriffWear</li>
 				<li>CallOfCthulhu_TownsfolkPolice</li>
@@ -18,11 +18,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/apparel</xpath>
+		<xpath>Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/apparel</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/apparel</xpath>
+			<xpath>Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/apparel</xpath>
 			<value>
 				<careIfWornByCorpse>false</careIfWornByCorpse>
 				<careIfDamaged>false</careIfDamaged>
@@ -34,11 +34,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/apparel/layers</xpath>
+		<xpath>Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/apparel/layers</xpath>
 		<!-- If it does, do this replacement. -->
 		<match Class="PatchOperationReplace">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/apparel/layers</xpath>
+			<xpath>Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/apparel/layers</xpath>
 			<value>
 				<layers Inherit="False">
 					<li>Belt</li>
@@ -50,11 +50,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/apparel/layers</xpath>
+		<xpath>Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/apparel/layers</xpath>
 		<!-- If it does, do this replacement. -->
 		<match Class="PatchOperationReplace">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/apparel/bodyPartGroups</xpath>
+			<xpath>Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/apparel/bodyPartGroups</xpath>
 			<value>
 				<bodyPartGroups>
 					<li>Shoulders</li>
@@ -66,11 +66,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/thingCategories</xpath>
+		<xpath>Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/thingCategories</xpath>
 		<!-- If it does, do this replacement. -->
 		<match Class="PatchOperationReplace">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/thingCategories</xpath>
+			<xpath>Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/thingCategories</xpath>
 			<value>
 				<thingCategories Inherit="False">
 					<li>ApparelUtility</li>
@@ -82,11 +82,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/recipeMaker/researchPrerequisite</xpath>
+		<xpath>Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/recipeMaker/researchPrerequisite</xpath>
 		<!-- If it does, do this replacement. -->
 		<match Class="PatchOperationReplace">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/recipeMaker/researchPrerequisite</xpath>
+			<xpath>Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/recipeMaker/researchPrerequisite</xpath>
 			<value>
 				<researchPrerequisites>
 					<li>RWP_LawEnforcement</li>

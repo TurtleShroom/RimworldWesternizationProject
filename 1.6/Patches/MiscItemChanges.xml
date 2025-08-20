@@ -20,9 +20,9 @@
 	<!-- Special thanks to Aelanna for straight-up saving me scores of headaches! -->
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="Apparel_BowlerHat"]/apparel</xpath>
+		<xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]/apparel</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="Apparel_BowlerHat"]</xpath>
+			<xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]</xpath>
 			<success>Always</success>
 			<value>
 				<tags></tags>
@@ -32,11 +32,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="Apparel_BowlerHat"]/apparel/tags</xpath>
+    <xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]/apparel/tags</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="Apparel_BowlerHat"]/apparel/tags</xpath>
+      <xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]/apparel/tags</xpath>
       <value>
         <li>RWPWesternWear</li>
         <li>RWPBanditWear</li>
@@ -87,11 +87,11 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="VAE_Headgear_Sunglasses"]</xpath>
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_Sunglasses"]</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="VAE_Headgear_Sunglasses"]/apparel/tags</xpath>
+      <xpath>Defs/ThingDef[defName="VAE_Headgear_Sunglasses"]/apparel/tags</xpath>
       <value>
         <li>RWPMarshalWear</li>
         <li>RWPSheriffWear</li>
@@ -134,11 +134,11 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="VAE_Headgear_Sunglasses"]</xpath>
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_Sunglasses"]</xpath>
     <!-- If it does, do this replacement. -->
     <match Class="PatchOperationReplace">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="VAE_Headgear_Sunglasses"]/generateCommonality</xpath>
+      <xpath>Defs/ThingDef[defName="VAE_Headgear_Sunglasses"]/generateCommonality</xpath>
       <value>
         <generateCommonality>0.45</generateCommonality>
       </value>
@@ -147,11 +147,11 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="VAE_Headgear_Glasses"]</xpath>
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_Glasses"]</xpath>
     <!-- If it does, do this replacement. -->
     <match Class="PatchOperationReplace">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="VAE_Headgear_Glasses"]/generateCommonality</xpath>
+      <xpath>Defs/ThingDef[defName="VAE_Headgear_Glasses"]/generateCommonality</xpath>
       <value>
         <generateCommonality>0.33</generateCommonality>
       </value>
@@ -160,11 +160,11 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="VAE_Headgear_Glasses"]</xpath>
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_Glasses"]</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="VAE_Headgear_Glasses"]/apparel/tags</xpath>
+      <xpath>Defs/ThingDef[defName="VAE_Headgear_Glasses"]/apparel/tags</xpath>
       <value>
         <li>Glasses</li>
         <li>RWPGentlemanWear</li>
@@ -204,9 +204,9 @@
 	<!-- Special thanks to Aelanna for straight-up saving me scores of headaches! -->
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="VAE_Apparel_SheriffShirt"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="VAE_Apparel_SheriffShirt"]/apparel/tags</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="VAE_Apparel_SheriffShirt"]/apparel</xpath>
+			<xpath>Defs/ThingDef[defName="VAE_Apparel_SheriffShirt"]/apparel</xpath>
 			<success>Always</success>
 			<value>
 				<tags></tags>
@@ -216,11 +216,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="VAE_Apparel_SheriffShirt"]</xpath>
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_SheriffShirt"]</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="VAE_Apparel_SheriffShirt"]/apparel/tags</xpath>
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_SheriffShirt"]/apparel/tags</xpath>
       <value>
         <li>RWPSheriffWear</li>
         <li>RWPDeputySheriffWear</li>
@@ -233,11 +233,11 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]</xpath>
+    <xpath>Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]/weaponTags</xpath>
+      <xpath>Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]/weaponTags</xpath>
       <value>
 		<li>CallOfCthulhu_InfantryGun</li>
 		<!-- <li>RWPGun</li> -->
@@ -258,9 +258,9 @@
 	<!-- Special thanks to Aelanna for straight-up saving me scores of headaches! -->
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="Apparel_Corset"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="Apparel_Corset"]/apparel/tags</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="Apparel_Corset"]/apparel</xpath>
+			<xpath>Defs/ThingDef[defName="Apparel_Corset"]/apparel</xpath>
 			<success>Always</success>
 			<value>
 				<tags></tags>
@@ -270,11 +270,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="Apparel_Corset"]/apparel/tags</xpath>
+    <xpath>Defs/ThingDef[defName="Apparel_Corset"]/apparel/tags</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="Apparel_Corset"]/apparel/tags</xpath>
+      <xpath>Defs/ThingDef[defName="Apparel_Corset"]/apparel/tags</xpath>
       <value>
         <li>Royal</li>
         <li>RoyalTier5</li>
@@ -298,9 +298,9 @@
 	<!-- Special thanks to Aelanna for straight-up saving me scores of headaches! -->
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]/tradeTags</xpath>
+		<xpath>Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]/tradeTags</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]</xpath>
+			<xpath>Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]</xpath>
 			<success>Always</success>
 			<value>
 				<tradeTags></tradeTags>
@@ -310,11 +310,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]/tradeTags</xpath>
+    <xpath>Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]/tradeTags</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]/tradeTags</xpath>
+      <xpath>Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]/tradeTags</xpath>
       <value>
         <li>RWP_Gear</li>
       </value>
@@ -324,9 +324,9 @@
   
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="Apparel_HatLadies"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="Apparel_HatLadies"]/apparel/tags</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="Apparel_HatLadies"]/apparel</xpath>
+			<xpath>Defs/ThingDef[defName="Apparel_HatLadies"]/apparel</xpath>
 			<success>Always</success>
 			<value>
 				<tags></tags>
@@ -336,11 +336,11 @@
 	
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="Apparel_HatLadies"]/apparel/tags</xpath>
+    <xpath>Defs/ThingDef[defName="Apparel_HatLadies"]/apparel/tags</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="Apparel_HatLadies"]/apparel/tags</xpath>
+      <xpath>Defs/ThingDef[defName="Apparel_HatLadies"]/apparel/tags</xpath>
       <value>
         <li>Royal</li>
         <li>RoyalTier1</li>
@@ -373,11 +373,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="Gunmar_Apparel_DressB"]/apparel/tags</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressB"]/apparel/tags</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="Gunmar_Apparel_DressB"]/apparel/tags</xpath>
+      <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressB"]/apparel/tags</xpath>
       <value>
         <li>Royal</li>
         <li>RoyalTier1</li>
@@ -397,11 +397,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="Gunmar_Apparel_RidingHabit"]/apparel/tags</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_RidingHabit"]/apparel/tags</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="Gunmar_Apparel_RidingHabit"]/apparel/tags</xpath>
+      <xpath>Defs/ThingDef[defName="Gunmar_Apparel_RidingHabit"]/apparel/tags</xpath>
       <value>
         <li>Royal</li>
         <li>RoyalTier1</li>
@@ -421,11 +421,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="Gunmar_Apparel_SimpleDress"]/apparel/tags</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_SimpleDress"]/apparel/tags</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="Gunmar_Apparel_SimpleDress"]/apparel/tags</xpath>
+      <xpath>Defs/ThingDef[defName="Gunmar_Apparel_SimpleDress"]/apparel/tags</xpath>
       <value>
 			<li>RWPWesternWear</li>
 			<li>CallOfCthulhu_Townsfolk</li>
@@ -441,9 +441,9 @@
 	<!-- Special thanks to Aelanna for straight-up saving me scores of headaches! -->
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="Apparel_Corset"]/apparel</xpath>
+		<xpath>Defs/ThingDef[defName="Apparel_Corset"]/apparel</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="Apparel_Corset"]</xpath>
+			<xpath>Defs/ThingDef[defName="Apparel_Corset"]</xpath>
 			<success>Always</success>
 			<value>
 				<apparel></apparel>
@@ -453,9 +453,9 @@
 	
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="Apparel_Corset"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="Apparel_Corset"]/apparel/tags</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="Apparel_Corset"]/apparel</xpath>
+			<xpath>Defs/ThingDef[defName="Apparel_Corset"]/apparel</xpath>
 			<success>Always</success>
 			<value>
 				<tags></tags>
@@ -466,11 +466,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="Apparel_Corset"]/apparel/tags</xpath>
+    <xpath>Defs/ThingDef[defName="Apparel_Corset"]/apparel/tags</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="Apparel_Corset"]/apparel/tags</xpath>
+      <xpath>Defs/ThingDef[defName="Apparel_Corset"]/apparel/tags</xpath>
       <value>
         <li>Royal</li>
         <li>RoyalTier5</li>
@@ -505,9 +505,9 @@
   
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]/tradeTags</xpath>
+		<xpath>Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]/tradeTags</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]</xpath>
+			<xpath>Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]</xpath>
 			<success>Always</success>
 			<value>
 				<tradeTags></tradeTags>
@@ -517,11 +517,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]/tradeTags</xpath>
+    <xpath>Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]/tradeTags</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]/tradeTags</xpath>
+      <xpath>Defs/ThingDef[defName="ROM_Gun_LPRifle_COC"]/tradeTags</xpath>
       <value>
         <li>RWP_Gear</li>
       </value>
@@ -529,11 +529,11 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="RWP_Apparel_Jeans"]</xpath>
+    <xpath>Defs/ThingDef[defName="RWP_Apparel_Jeans"]</xpath>
     <!-- If it does, do this replacement. -->
     <match Class="PatchOperationReplace">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="VAE_Apparel_Jeans"]</xpath>
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_Jeans"]</xpath>
 		<value>
             <ThingDef ParentName="BaseFilth">
               <defName>VAE_Apparel_Jeans</defName>
@@ -567,22 +567,22 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="RWP_Apparel_Jeans"]</xpath>
+    <xpath>Defs/ThingDef[defName="RWP_Apparel_Jeans"]</xpath>
     <!-- If it does, do this replacement. -->
     <match Class="PatchOperationRemove">
       <success>Always</success>
-      <xpath>/Defs/PawnKindDef/apparelRequired/li[text()="VAE_Apparel_Jeans"]</xpath>
+      <xpath>Defs/PawnKindDef/apparelRequired/li[text()="VAE_Apparel_Jeans"]</xpath>
     </match>
     <!-- If the first XPATH does not exist, the original code stands. All according to plan. -->
   </Operation>
   
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="ROM_Apparel_CallOfCthulhuPlaidShirt"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="ROM_Apparel_CallOfCthulhuPlaidShirt"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="ROM_Apparel_CallOfCthulhuPlaidShirt"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="ROM_Apparel_CallOfCthulhuPlaidShirt"]/apparel/tags</xpath>
 			<value>
 				<li>Usa</li>
 				<li>Klan_apparel</li>
@@ -597,11 +597,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="ROM_Apparel_DetectiveSlacks"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="ROM_Apparel_DetectiveSlacks"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="ROM_Apparel_DetectiveSlacks"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="ROM_Apparel_DetectiveSlacks"]/apparel/tags</xpath>
 			<value>
 				<li>Usa</li>
 				<li>RWPMarshalWear</li>
@@ -621,11 +621,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="ROM_Apparel_NF_FSOveralls"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="ROM_Apparel_NF_FSOveralls"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="ROM_Apparel_NF_FSOveralls"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="ROM_Apparel_NF_FSOveralls"]/apparel/tags</xpath>
 			<value>
 				<li>Usa</li>
 				<li>RWPBanditWear</li>
@@ -637,11 +637,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="ROM_Apparel_ROM_StrawHat"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="ROM_Apparel_ROM_StrawHat"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="ROM_Apparel_ROM_StrawHat"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="ROM_Apparel_ROM_StrawHat"]/apparel/tags</xpath>
 			<value>
 				<li>Usa</li>
 				<li>RWPBanditWear</li>
@@ -659,11 +659,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_BoaterHat"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="Gunmar_Apparel_BoaterHat"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_BoaterHat"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="Gunmar_Apparel_BoaterHat"]/apparel/tags</xpath>
 			<value>
 				<li>Usa</li>
 				<li>president</li>
@@ -696,11 +696,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_Waistcoat"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="Gunmar_Apparel_Waistcoat"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_Waistcoat"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="Gunmar_Apparel_Waistcoat"]/apparel/tags</xpath>
 			<value>
 				<li>RWPWesternWear</li>
 				<li>RWPGentlemanWear</li>
@@ -719,11 +719,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_BpWaistcoat"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="Gunmar_Apparel_BpWaistcoat"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_BpWaistcoat"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="Gunmar_Apparel_BpWaistcoat"]/apparel/tags</xpath>
 			<value>
 				<!-- <li>Usa</li> -->
 				<li>president</li>
@@ -742,11 +742,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_Smoking_Jacket"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="Gunmar_Apparel_Smoking_Jacket"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_Smoking_Jacket"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="Gunmar_Apparel_Smoking_Jacket"]/apparel/tags</xpath>
 			<value>
 				<li>RWPGentlemanWear</li>
 				<li>mafia_tete</li>
@@ -759,11 +759,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_Frock_Coat"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="Gunmar_Apparel_Frock_Coat"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_Frock_Coat"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="Gunmar_Apparel_Frock_Coat"]/apparel/tags</xpath>
 			<value>
 				<li>RWPGentlemanWear</li>
 				<li>mafia_tete</li>
@@ -776,11 +776,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_SimpleDress"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="Gunmar_Apparel_SimpleDress"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_SimpleDress"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="Gunmar_Apparel_SimpleDress"]/apparel/tags</xpath>
 			<value>
 				<li>Usa</li>
 				<li>CallOfCthulhu_Townsfolk</li>
@@ -804,11 +804,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_RidingHabit"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="Gunmar_Apparel_RidingHabit"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_RidingHabit"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="Gunmar_Apparel_RidingHabit"]/apparel/tags</xpath>
 			<value>
 				<li>president</li>
 				<li>RWPLadiesWear</li>
@@ -822,11 +822,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_WalkingDress"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="Gunmar_Apparel_WalkingDress"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_WalkingDress"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="Gunmar_Apparel_WalkingDress"]/apparel/tags</xpath>
 			<value>
 				<li>RWPLadiesWear</li>
 				<li>RWPGentlemanWear</li> <!-- For female Pawns only -->
@@ -839,11 +839,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_DressB"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressB"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_DressB"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressB"]/apparel/tags</xpath>
 			<value>
 				<li>president</li>
 				<li>RWPLadiesWear</li>
@@ -859,11 +859,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_DressA"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_DressA"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA"]/apparel/tags</xpath>
 			<value>
 				<li>RWPBanditWear</li>
 				<li>CallOfCthulhu_Thug</li>
@@ -876,11 +876,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="ROM_Apparel_NF_FSOveralls"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="ROM_Apparel_NF_FSOveralls"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="ROM_Apparel_NF_FSOveralls"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="ROM_Apparel_NF_FSOveralls"]/apparel/tags</xpath>
 			<value>
 				<li>Usa</li>
 				<li>RWPWesternWear</li>
@@ -893,11 +893,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="ROM_Apparel_CallOfCthulhuShirtTie"]</xpath>
+		<xpath>Defs/ThingDef[defName="ROM_Apparel_CallOfCthulhuShirtTie"]</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="ROM_Apparel_CallOfCthulhuShirtTie"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="ROM_Apparel_CallOfCthulhuShirtTie"]/apparel/tags</xpath>
 			<value>
 				<li>Usa</li>
 				<li>president</li>
@@ -934,11 +934,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_WalkingDress"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="Gunmar_Apparel_WalkingDress"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="Gunmar_Apparel_WalkingDress"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="Gunmar_Apparel_WalkingDress"]/apparel/tags</xpath>
 			<value>
 				<li>RWPLadiesWear</li>
 				<li>RWPGentlemanWear</li> <!-- For female Pawns only -->
@@ -951,11 +951,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="ROM_Apparel_CallOfCthulhutrench_coat"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="ROM_Apparel_CallOfCthulhutrench_coat"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[defName="ROM_Apparel_CallOfCthulhutrench_coat"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="ROM_Apparel_CallOfCthulhutrench_coat"]/apparel/tags</xpath>
 			<value>
 				<li>Usa</li>
 				<li>RWPMarshalWear</li>
@@ -972,11 +972,11 @@
 	
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="yanjing"]/recipeMaker/researchPrerequisite</xpath>
+    <xpath>Defs/ThingDef[defName="yanjing"]/recipeMaker/researchPrerequisite</xpath>
     <!-- If it does, insert this replacement. -->
     <match Class="PatchOperationReplace">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="yanjing"]/recipeMaker/researchPrerequisite</xpath>
+      <xpath>Defs/ThingDef[defName="yanjing"]/recipeMaker/researchPrerequisite</xpath>
       <value>
         <researchPrerequisite>RWP_Optometry</researchPrerequisite>
       </value>
@@ -984,7 +984,7 @@
     <!-- If it DOES NOT, add this instead. -->
     <nomatch Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="yanjing"]/recipeMaker</xpath>
+      <xpath>Defs/ThingDef[defName="yanjing"]/recipeMaker</xpath>
       <value>
         <researchPrerequisite>RWP_Optometry</researchPrerequisite>
       </value>
@@ -993,11 +993,11 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="yanjing"]</xpath>
+    <xpath>Defs/ThingDef[defName="yanjing"]</xpath>
     <!-- If it does, do this replacement. -->
     <match Class="PatchOperationReplace">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="yanjing"]/generateCommonality</xpath>
+      <xpath>Defs/ThingDef[defName="yanjing"]/generateCommonality</xpath>
       <value>
         <generateCommonality>0.13</generateCommonality>
       </value>
@@ -1005,7 +1005,7 @@
     <!-- If it DOES NOT, add this instead. -->
     <nomatch Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="yanjing"]</xpath>
+      <xpath>Defs/ThingDef[defName="yanjing"]</xpath>
       <value>
         <generateCommonality>0.13</generateCommonality>
       </value>
@@ -1015,11 +1015,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="CG_RoundGlasses"]/recipeMaker/researchPrerequisite</xpath>
+    <xpath>Defs/ThingDef[defName="CG_RoundGlasses"]/recipeMaker/researchPrerequisite</xpath>
     <!-- If it does, insert this replacement. -->
     <match Class="PatchOperationReplace">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="CG_RoundGlasses"]/recipeMaker/researchPrerequisite</xpath>
+      <xpath>Defs/ThingDef[defName="CG_RoundGlasses"]/recipeMaker/researchPrerequisite</xpath>
       <value>
         <researchPrerequisite>RWP_Optometry</researchPrerequisite>
       </value>
@@ -1027,7 +1027,7 @@
     <!-- If it DOES NOT, add this instead. -->
     <nomatch Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="CG_RoundGlasses"]/recipeMaker</xpath>
+      <xpath>Defs/ThingDef[defName="CG_RoundGlasses"]/recipeMaker</xpath>
       <value>
         <researchPrerequisite>RWP_Optometry</researchPrerequisite>
       </value>
@@ -1037,11 +1037,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="CG_PilotGlasses"]/recipeMaker/researchPrerequisite</xpath>
+    <xpath>Defs/ThingDef[defName="CG_PilotGlasses"]/recipeMaker/researchPrerequisite</xpath>
     <!-- If it does, insert this replacement. -->
     <match Class="PatchOperationReplace">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="CG_PilotGlasses"]/recipeMaker/researchPrerequisite</xpath>
+      <xpath>Defs/ThingDef[defName="CG_PilotGlasses"]/recipeMaker/researchPrerequisite</xpath>
       <value>
         <researchPrerequisite>RWP_Optometry</researchPrerequisite>
       </value>
@@ -1049,7 +1049,7 @@
     <!-- If it DOES NOT, add this instead. -->
     <nomatch Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="CG_PilotGlasses"]/recipeMaker</xpath>
+      <xpath>Defs/ThingDef[defName="CG_PilotGlasses"]/recipeMaker</xpath>
       <value>
         <researchPrerequisite>RWP_Optometry</researchPrerequisite>
       </value>
@@ -1059,11 +1059,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="CG_PilotGlasses"]/apparel/forceRenderUnderHair</xpath>
+    <xpath>Defs/ThingDef[defName="CG_PilotGlasses"]/apparel/forceRenderUnderHair</xpath>
     <!-- If it DOES NOT, add this instead. -->
     <nomatch Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="CG_PilotGlasses"]/apparel</xpath>
+      <xpath>Defs/ThingDef[defName="CG_PilotGlasses"]/apparel</xpath>
       <value>
 		  <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
 		  <forceRenderUnderHair>true</forceRenderUnderHair>
@@ -1077,11 +1077,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="CG_RoundGlasses"]/apparel/forceRenderUnderHair</xpath>
+    <xpath>Defs/ThingDef[defName="CG_RoundGlasses"]/apparel/forceRenderUnderHair</xpath>
     <!-- If it DOES NOT, add this instead. -->
     <nomatch Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="CG_RoundGlasses"]/apparel</xpath>
+      <xpath>Defs/ThingDef[defName="CG_RoundGlasses"]/apparel</xpath>
       <value>
 		  <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
 		  <forceRenderUnderHair>true</forceRenderUnderHair>
@@ -1095,11 +1095,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="CG_PilotGlasses"]/apparel/layers</xpath>
+    <xpath>Defs/ThingDef[defName="CG_PilotGlasses"]/apparel/layers</xpath>
     <!-- If it does, do this replacement. -->
     <match Class="PatchOperationReplace">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="CG_PilotGlasses"]/apparel/layers</xpath>
+      <xpath>Defs/ThingDef[defName="CG_PilotGlasses"]/apparel/layers</xpath>
       <value>
 		  <layers Inherit="False">
 			<li>EyeCover</li>
@@ -1111,11 +1111,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="CG_RoundGlasses"]/apparel/layers</xpath>
+    <xpath>Defs/ThingDef[defName="CG_RoundGlasses"]/apparel/layers</xpath>
     <!-- If it does, do this replacement. -->
     <match Class="PatchOperationReplace">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="CG_RoundGlasses"]/apparel/layers</xpath>
+      <xpath>Defs/ThingDef[defName="CG_RoundGlasses"]/apparel/layers</xpath>
       <value>
 		  <layers Inherit="False">
 			<li>EyeCover</li>
@@ -1129,9 +1129,9 @@
 	<!-- Special thanks to Aelanna for straight-up saving me scores of headaches! -->
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="CG_DerbyShoes"]/apparel</xpath>
+		<xpath>Defs/ThingDef[defName="CG_DerbyShoes"]/apparel</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="CG_DerbyShoes"]</xpath>
+			<xpath>Defs/ThingDef[defName="CG_DerbyShoes"]</xpath>
 			<success>Always</success>
 			<value>
 				<apparel></apparel>
@@ -1141,9 +1141,9 @@
 	
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="CG_DerbyShoes"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="CG_DerbyShoes"]/apparel/tags</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="CG_DerbyShoes"]/apparel</xpath>
+			<xpath>Defs/ThingDef[defName="CG_DerbyShoes"]/apparel</xpath>
 			<success>Always</success>
 			<value>
 				<tags></tags>
@@ -1154,11 +1154,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="CG_DerbyShoes"]/apparel/tags</xpath>
+    <xpath>Defs/ThingDef[defName="CG_DerbyShoes"]/apparel/tags</xpath>
     <!-- If it does, add this. -->
     <match Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="CG_DerbyShoes"]/apparel/tags</xpath>
+      <xpath>Defs/ThingDef[defName="CG_DerbyShoes"]/apparel/tags</xpath>
       <value>
         <li>Royal</li>
         <li>RoyalTier5</li>
@@ -1196,9 +1196,9 @@
   
     <!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
     <Operation Class="PatchOperationConditional">
-        <xpath>/Defs/ThingDef[@Name="ApparelShirtRoyalTier2Base"]/apparel/tags</xpath>
+        <xpath>Defs/ThingDef[@Name="ApparelShirtRoyalTier2Base"]/apparel/tags</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>/Defs/ThingDef[@Name="ApparelShirtRoyalTier2Base"]/apparel</xpath>
+            <xpath>Defs/ThingDef[@Name="ApparelShirtRoyalTier2Base"]/apparel</xpath>
 			<success>Always</success>
             <value>
                 <tags></tags>
@@ -1208,11 +1208,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[@Name="ApparelShirtRoyalTier2Base"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[@Name="ApparelShirtRoyalTier2Base"]/apparel/tags</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/ThingDef[@Name="ApparelShirtRoyalTier2Base"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[@Name="ApparelShirtRoyalTier2Base"]/apparel/tags</xpath>
 			<value>
 				<!-- <li>WeebClothes</li> -->
 				<li>WeebElite</li>
@@ -1235,11 +1235,11 @@
 	
     <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="Bullshit_Apparel_Spanton"]</xpath>
+    <xpath>Defs/ThingDef[defName="Bullshit_Apparel_Spanton"]</xpath>
     <!-- If it does, do this replacement. -->
     <match Class="PatchOperationReplace">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="Bullshit_Apparel_Spanton"]/generateCommonality</xpath>
+      <xpath>Defs/ThingDef[defName="Bullshit_Apparel_Spanton"]/generateCommonality</xpath>
       <value>
         <generateCommonality>0.33</generateCommonality>
       </value>
@@ -1249,11 +1249,11 @@
   
   <Operation Class="PatchOperationConditional">
     <!-- Does this exist? -->
-    <xpath>/Defs/ThingDef[defName="Bullshit_Apparel_Spanton"]/recipeMaker/researchPrerequisite</xpath>
+    <xpath>Defs/ThingDef[defName="Bullshit_Apparel_Spanton"]/recipeMaker/researchPrerequisite</xpath>
     <!-- If it does, insert this replacement. -->
     <match Class="PatchOperationReplace">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="Bullshit_Apparel_Spanton"]/recipeMaker/researchPrerequisite</xpath>
+      <xpath>Defs/ThingDef[defName="Bullshit_Apparel_Spanton"]/recipeMaker/researchPrerequisite</xpath>
       <value>
         <researchPrerequisite>RWP_Optometry</researchPrerequisite>
       </value>
@@ -1261,7 +1261,7 @@
     <!-- If it DOES NOT, add this instead. -->
     <nomatch Class="PatchOperationAdd">
       <success>Always</success>
-      <xpath>/Defs/ThingDef[defName="Bullshit_Apparel_Spanton"]/recipeMaker</xpath>
+      <xpath>Defs/ThingDef[defName="Bullshit_Apparel_Spanton"]/recipeMaker</xpath>
       <value>
         <researchPrerequisite>RWP_Optometry</researchPrerequisite>
       </value>
@@ -1271,11 +1271,11 @@
   
     <Operation Class="PatchOperationConditional">
 		<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="Bullshit_Apparel_Spanton"]</xpath>
+		<xpath>Defs/ThingDef[defName="Bullshit_Apparel_Spanton"]</xpath>
 		<!-- If it does, do this replacement. -->
 		<match Class="PatchOperationReplace">
 		  <success>Always</success>
-		  <xpath>/Defs/ThingDef[defName="Bullshit_Apparel_Spanton"]/apparel</xpath>
+		  <xpath>Defs/ThingDef[defName="Bullshit_Apparel_Spanton"]/apparel</xpath>
 		  <value>
 			<apparel>
 				<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
@@ -1328,9 +1328,9 @@
 	
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="UNAGInoEshirt"]/apparel</xpath>
+		<xpath>Defs/ThingDef[defName="UNAGInoEshirt"]/apparel</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="UNAGInoEshirt"]</xpath>
+			<xpath>Defs/ThingDef[defName="UNAGInoEshirt"]</xpath>
 			<success>Always</success>
 			<value>
 				<apparel></apparel>
@@ -1340,9 +1340,9 @@
 	
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="UNAGInoEshirt"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="UNAGInoEshirt"]/apparel/tags</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="UNAGInoEshirt"]/apparel</xpath>
+			<xpath>Defs/ThingDef[defName="UNAGInoEshirt"]/apparel</xpath>
 			<success>Always</success>
 			<value>
 				<tags></tags>
@@ -1352,10 +1352,10 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="UNAGInoEshirt"]</xpath>
+		<xpath>Defs/ThingDef[defName="UNAGInoEshirt"]</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="UNAGInoEshirt"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="UNAGInoEshirt"]/apparel/tags</xpath>
 			<success>Always</success>
 			<value>
 				<li>MF_CorporateTier1</li>
@@ -1367,9 +1367,9 @@
 	
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]/apparel</xpath>
+		<xpath>Defs/ThingDef[defName="UNAGInoSDs"]/apparel</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]</xpath>
+			<xpath>Defs/ThingDef[defName="UNAGInoSDs"]</xpath>
 			<success>Always</success>
 			<value>
 				<apparel></apparel>
@@ -1379,9 +1379,9 @@
 	
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="UNAGInoSDs"]/apparel/tags</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]/apparel</xpath>
+			<xpath>Defs/ThingDef[defName="UNAGInoSDs"]/apparel</xpath>
 			<success>Always</success>
 			<value>
 				<tags></tags>
@@ -1391,10 +1391,10 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]</xpath>
+		<xpath>Defs/ThingDef[defName="UNAGInoSDs"]</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="UNAGInoSDs"]/apparel/tags</xpath>
 			<success>Always</success>
 			<value>
 				<li>MF_CorporateTier1</li>
@@ -1411,9 +1411,9 @@
 	
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]/apparel</xpath>
+		<xpath>Defs/ThingDef[defName="UNAGInoSDs"]/apparel</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]</xpath>
+			<xpath>Defs/ThingDef[defName="UNAGInoSDs"]</xpath>
 			<success>Always</success>
 			<value>
 				<apparel></apparel>
@@ -1423,9 +1423,9 @@
 	
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]/apparel/tags</xpath>
+		<xpath>Defs/ThingDef[defName="UNAGInoSDs"]/apparel/tags</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]/apparel</xpath>
+			<xpath>Defs/ThingDef[defName="UNAGInoSDs"]/apparel</xpath>
 			<success>Always</success>
 			<value>
 				<tags></tags>
@@ -1435,10 +1435,10 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-		<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]</xpath>
+		<xpath>Defs/ThingDef[defName="UNAGInoSDs"]</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName="UNAGInoSDs"]/apparel/tags</xpath>
+			<xpath>Defs/ThingDef[defName="UNAGInoSDs"]/apparel/tags</xpath>
 			<success>Always</success>
 			<value>
 				<li>MF_CorporateTier1</li>

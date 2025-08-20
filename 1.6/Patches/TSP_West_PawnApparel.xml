@@ -5,9 +5,9 @@
 	<!-- Special thanks to Aelanna for straight-up saving me scores of headaches! -->
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]/apparelTags</xpath>
+		<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]/apparelTags</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]</xpath>
 			<success>Always</success>
 			<value>
 				<apparelTags></apparelTags>
@@ -17,9 +17,9 @@
 	
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]/apparelRequired</xpath>
+		<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]/apparelRequired</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]</xpath>
 			<success>Always</success>
 			<value>
 				<apparelRequired></apparelRequired>
@@ -29,11 +29,11 @@
 
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]</xpath>
+	<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]</xpath>
 		<!-- If it does, do this replacement. -->
 		<match Class="PatchOperationReplace">
 			<success>Always</success>
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]/apparelRequired</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]/apparelRequired</xpath>
 			<value>
 				<apparelRequired Inherit="False">
 					<li>ROM_Apparel_CallOfCthulhuBowler</li>
@@ -47,11 +47,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]</xpath>
+	<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]/apparelTags</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkDoctor"]/apparelTags</xpath>
 			<value>
 				<li>Doctor</li>
 				<li>CallOfCthulhu_Doctor</li>
@@ -63,9 +63,9 @@
 	
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]/apparelTags</xpath>
+		<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]/apparelTags</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]</xpath>
 			<success>Always</success>
 			<value>
 				<apparelTags></apparelTags>
@@ -75,9 +75,9 @@
 	
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]/apparelRequired</xpath>
+		<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]/apparelRequired</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]</xpath>
 			<success>Always</success>
 			<value>
 				<apparelRequired></apparelRequired>
@@ -87,11 +87,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]</xpath>
+	<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]</xpath>
 		<!-- If it does, do this replacement. -->
 		<match Class="PatchOperationReplace">
 			<success>Always</success>
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]/apparelRequired</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]/apparelRequired</xpath>
 			<value>
 				<apparelRequired Inherit="False">
 					<li>RWP_Apparel_StablehandTrousers</li>
@@ -104,11 +104,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]</xpath>
+	<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]/apparelTags</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]/apparelTags</xpath>
 			<value>
 				<li>CallOfCthulhu_Rancher</li>
 				<li>RWPWesternApparel</li>
@@ -119,11 +119,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]</xpath>
+	<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]</xpath>
 		<!-- If it does, do this replacement. -->
 		<match Class="PatchOperationReplace">
 			<success>Always</success>
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]/apparelRequired</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkRancher"]/apparelRequired</xpath>
 			<value>
 				<apparelRequired Inherit="False">
 					<li>RWP_Apparel_StablehandTrousers</li>
@@ -136,9 +136,9 @@
 	
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]/apparelTags</xpath>
+		<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]/apparelTags</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]</xpath>
 			<success>Always</success>
 			<value>
 				<apparelTags></apparelTags>
@@ -148,9 +148,9 @@
 	
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]/apparelRequired</xpath>
+		<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]/apparelRequired</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]</xpath>
 			<success>Always</success>
 			<value>
 				<apparelRequired></apparelRequired>
@@ -160,11 +160,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]</xpath>
+	<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]/apparelTags</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]/apparelTags</xpath>
 			<value>
 				<li>CallOfCthulhu_Farmer</li>
 				<!-- <li>CallOfCthulhu_Townsfolk</li> -->
@@ -176,11 +176,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]</xpath>
+	<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]</xpath>
 		<!-- If it does, do this replacement. -->
 		<match Class="PatchOperationReplace">
 			<success>Always</success>
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]/apparelRequired</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkFarmer"]/apparelRequired</xpath>
 			<value>
 				<apparelRequired Inherit="False">
 					<li>RWP_Apparel_StablehandTrousers</li>
@@ -194,9 +194,9 @@
 	
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]/apparelTags</xpath>
+		<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]/apparelTags</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]</xpath>
 			<success>Always</success>
 			<value>
 				<apparelTags></apparelTags>
@@ -206,9 +206,9 @@
 	
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]/apparelRequired</xpath>
+		<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]/apparelRequired</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]</xpath>
 			<success>Always</success>
 			<value>
 				<apparelRequired></apparelRequired>
@@ -218,11 +218,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]</xpath>
+	<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]/apparelTags</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]/apparelTags</xpath>
 			<value>
 				<li>CallOfCthulhu_Lumberjack</li>
 				<!-- <li>CallOfCthulhu_Townsfolk</li> -->
@@ -234,11 +234,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]</xpath>
+	<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]</xpath>
 		<!-- If it does, do this replacement. -->
 		<match Class="PatchOperationReplace">
 			<success>Always</success>
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]/apparelRequired</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]/apparelRequired</xpath>
 			<value>
 				<apparelRequired Inherit="False">
 					<li>RWP_Apparel_Jeans</li>
@@ -251,11 +251,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-	<xpath>/Defs/ThingDef[defName="VAE_Apparel_FleeceShirt"]</xpath>
+	<xpath>Defs/ThingDef[defName="VAE_Apparel_FleeceShirt"]</xpath>
 		<!-- If it does, do this replacement. -->
 		<match Class="PatchOperationReplace">
 			<success>Always</success>
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]/apparelRequired</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkLumberjack"]/apparelRequired</xpath>
 			<value>
 				<apparelRequired Inherit="False">
 					<li>RWP_Apparel_Jeans</li>
@@ -268,9 +268,9 @@
 	
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]/apparelTags</xpath>
+		<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]/apparelTags</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]</xpath>
 			<success>Always</success>
 			<value>
 				<apparelTags></apparelTags>
@@ -280,9 +280,9 @@
 	
 	<!-- Add comps field to Settlement WorldObjectDef if it doesn't exist -->
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]/apparelRequired</xpath>
+		<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]/apparelRequired</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]</xpath>
 			<success>Always</success>
 			<value>
 				<apparelRequired></apparelRequired>
@@ -292,11 +292,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]</xpath>
+	<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]</xpath>
 		<!-- If it does, add this. -->
 		<match Class="PatchOperationAdd">
 			<success>Always</success>
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]/apparelTags</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]/apparelTags</xpath>
 			<value>
 				<li>CallOfCthulhu_Butcher</li>
 				<li>CallOfCthulhu_Townsfolk</li>
@@ -308,11 +308,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-	<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]/apparelRequired</xpath>
+	<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]/apparelRequired</xpath>
 		<!-- If it does, do this replacement. -->
 		<match Class="PatchOperationReplace">
 			<success>Always</success>
-			<xpath>/Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]/apparelRequired</xpath>
+			<xpath>Defs/PawnKindDef[defName="ROM_TownsfolkButcher"]/apparelRequired</xpath>
 			<value>
 				<apparelRequired Inherit="False">
 					<li>RWP_Apparel_ClothApron</li>
@@ -324,11 +324,11 @@
 	
 	<Operation Class="PatchOperationConditional">
 	<!-- Does this exist? -->
-	<xpath>/Defs/PawnKindDef[defName="K4G_Murica_ShirtlessManiac"]/apparelRequired</xpath>
+	<xpath>Defs/PawnKindDef[defName="K4G_Murica_ShirtlessManiac"]/apparelRequired</xpath>
 		<!-- If it does, do this replacement. -->
 		<match Class="PatchOperationReplace">
 			<success>Always</success>
-			<xpath>/Defs/PawnKindDef[defName="K4G_Murica_ShirtlessManiac"]/apparelRequired</xpath>
+			<xpath>Defs/PawnKindDef[defName="K4G_Murica_ShirtlessManiac"]/apparelRequired</xpath>
 			<value>
 				<apparelRequired Inherit="False">
 					<li>RWP_Apparel_PatchworkPants</li>
