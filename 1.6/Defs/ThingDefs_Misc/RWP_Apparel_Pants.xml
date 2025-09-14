@@ -62,6 +62,8 @@
 		<li>HippieBasic</li>
 		<li>MF_CorporateTier1</li>
 		<li>K4GCowboyHat</li>
+		<li>K4GGovernmentLaborer</li>
+		<li>K4GRevolutionLaborer</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -140,6 +142,8 @@
 		<li>Godfather</li>
 		<li>MF_CorporateTier1</li>
 		<li>MF_CorporateTier2</li>
+		<li>K4GGovernmentCitizen</li>
+		<li>K4GRevolutionCorpo</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -198,6 +202,8 @@
 		<li>HarrierWear</li>
 		<li>HippeBasic</li>
 		<li>ShirtlessManiac</li>
+        <li>K4GPatrolCap</li>
+		<li>K4GRevolutionLaborer</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -283,6 +289,10 @@
 		<li>K4GCowboyHat</li>
 		<li>K4GOveralls</li>
 		<li>ShirtlessManiac</li>
+        <li>K4GPatrolCap</li>
+		<li>K4GGovernmentCitizen</li>
+		<li>K4GGovernmentLaborer</li>
+		<li>K4GRevolutionLaborer</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -356,6 +366,9 @@
         <li>Klan_apparel</li>
 		<li>DixieWear</li>
 		<li>K4GCowboyHat</li>
+        <li>K4GPatrolCap</li>
+		<li>K4GGovernmentCitizen</li>
+		<li>K4GRevolutionCorpo</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -492,6 +505,9 @@
 		<li>SurvivalistWear</li>
 		<li>K4GCowboyHat</li>
 		<li>K4GOveralls</li>
+        <li>K4GPatrolCap</li>
+		<li>K4GGovernmentLaborer</li>
+		<li>K4GRevolutionLaborer</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>

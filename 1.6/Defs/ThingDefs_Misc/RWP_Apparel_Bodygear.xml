@@ -396,6 +396,7 @@
 		<li>Usa</li>
 		<li>MF_CorporateTier1</li>
 		<li>MF_CorporateTier2</li>
+		<li>K4GOvercoat</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -459,6 +460,8 @@
         <li>ST_GnomeClothing</li>
 		<li>MF_CorporateTier1</li>
 		<li>MF_CorporateTier2</li>
+		<li>K4GGovernmentCitizen</li>
+		<li>K4GRevolutionCorpo</li>
       </tags>
 	  <gender>Male</gender>
       <defaultOutfitTags>

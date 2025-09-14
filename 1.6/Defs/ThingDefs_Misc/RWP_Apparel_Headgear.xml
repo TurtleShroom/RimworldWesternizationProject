@@ -111,6 +111,7 @@
 		<li>HarrierWear</li>
 		<li>SurvivalistWear</li>
 		<li>KebabTerrorist</li>
+		<li>K4GRevolutionLaborer</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -181,6 +182,9 @@
 		<li>CaravaneerWear</li>
 		<li>SlaveRatWear</li>
 		<li>K4GCowboyHat</li>
+        <li>K4GPatrolCap</li>
+		<li>K4GGovernmentCitizen</li>
+		<li>K4GRevolutionCorpo</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -273,6 +277,7 @@
 		<li>MWApparel8</li>
 		<li>MWApparel9</li>
 		<li>MWApparel10</li>
+		<li>K4GGovernmentLaborer</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -343,6 +348,7 @@
         <li>CallOfCthulhu_Townsfolk</li>
 		<li>MF_CorporateTier1</li>
 		<li>MF_CorporateTier2</li>
+		<li>K4GRevolutionCorpo</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -414,6 +420,9 @@
         <li>Usa</li>
 		<li>DixieWear</li>
 		<li>K4GCowboyHat</li>
+        <li>K4GPatrolCap</li>
+		<li>K4GGovernmentLaborer</li>
+		<li>K4GRevolutionLaborer</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -516,6 +525,12 @@
 		<li>MWApparel8</li>
 		<li>MWApparel9</li>
 		<li>MWApparel10</li>
+        <li>K4GPatrolCap</li>
+		<li>K4GGovernmentCitizen</li>
+		<li>K4GGovernmentLaborer</li>
+		<li>K4GRevolutionLaborer</li>
+		<li>K4GGovernmentCitizen</li>
+		<li>K4GRevolutionCorpo</li>
       </tags>
       <developmentalStageFilter MayRequire="Ludeon.Rimworld.Biotech">Child, Adult</developmentalStageFilter>
       <forceEyesVisibleForRotations>
@@ -588,6 +603,10 @@
         <li>FrogmanWear</li>
         <li>ST_GnomeClothing</li>
 		<li>K4GCowboyHat</li>
+        <li>K4GPatrolCap</li>
+		<li>K4GGovernmentCitizen</li>
+		<li>K4GGovernmentLaborer</li>
+		<li>K4GRevolutionLaborer</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
