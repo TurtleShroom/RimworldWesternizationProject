@@ -89,7 +89,7 @@
 			<xpath>Defs/ThingDef[defName="JKL_Apparel_SheriffBadge"]/recipeMaker/researchPrerequisite</xpath>
 			<value>
 				<researchPrerequisites>
-					<li>RWP_LawEnforcement</li>
+					<li>RWP_WesternApparel</li>
 				</researchPrerequisites>
 			</value>
 		</match>

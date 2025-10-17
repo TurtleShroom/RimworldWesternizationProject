@@ -34,7 +34,7 @@
       <success>Always</success>
       <xpath>Defs/ResearchProjectDef[defName="ROM_MERFOutfits"]/prerequisites</xpath>
       <value>
-        <li>RWP_LawEnforcement</li>
+        <li>RWP_WesternApparel</li>
       </value>
     </match>
     <!-- If the first XPATH does not exist, the original code stands. -->
@@ -47,7 +47,7 @@
       <success>Always</success>
       <xpath>Defs/ThingDef[defName="VAE_Apparel_SheriffShirt"]/recipeMaker/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>RWP_LawEnforcement</researchPrerequisite>
+        <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
       </value>
     </match>
     <!-- If the first XPATH does not exist, the original code stands. -->
@@ -200,9 +200,25 @@
       <success>Always</success>
       <xpath>Defs/ResearchProjectDef[defName="VFEP_Warcaskets"]/prerequisites</xpath>
       <value>
-        <li>Electricity</li>
+        <li>MicroelectronicsBasics</li>
       </value>
     </match>
     <!-- If the first XPATH does not exist, the original code stands. -->
   </Operation>
+  
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]</xpath>
+		<!-- If it does, insert this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>Defs/ThingDef[@Name="RWPBaseGun"]/recipeMaker/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites Inherit="False">
+					<li MayRequire="oskarpotocki.vfe.medieval2">VFEM2_Matchlocks</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
 </Patch>

@@ -205,4 +205,37 @@
     </match>
     <!-- If the first XPATH does not exist, the original code stands. -->
   </Operation>
+  
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]</xpath>
+		<!-- If it does, insert this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/ResearchProjectDef[defName="RWP_Artillery"]/prerequisites</xpath>
+			<value>
+				<prerequisites>
+					<li MayRequire="oskarpotocki.vfe.medieval2">VFEM2_Matchlocks</li>
+					<!-- <li MayRequire="dankpyon.medieval.overhaul">DankPyon_Trebuchet</li> -->
+				</prerequisites>
+			</value>
+		</match>
+	<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+	<!-- Does this exist? -->
+		<xpath>/Defs/ResearchProjectDef[defName="VFEM2_Matchlocks"]</xpath>
+		<!-- If it does, insert this replacement. -->
+		<match Class="PatchOperationReplace">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[@Name="RWPBaseGun"]/recipeMaker/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li MayRequire="oskarpotocki.vfe.medieval2">VFEM2_Matchlocks</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+	<!-- If the first XPATH does not exist, the original code stands. -->
+	</Operation>
 </Patch>

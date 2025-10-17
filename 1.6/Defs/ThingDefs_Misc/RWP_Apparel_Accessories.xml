@@ -102,7 +102,7 @@
     <label>Deputy Sheriff badge</label>
     <description>A town deputy sheriff's badge. This law enforcement badge gives the wearer an air of authority, as well as more confidence during gun fights.</description>
     <recipeMaker>
-      <researchPrerequisite>RWP_LawEnforcement</researchPrerequisite>
+      <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Accessories/Display/SilverSheriffBadge</texPath>
@@ -169,7 +169,7 @@
     <label>Sheriff badge</label>
     <description>A town sheriff's badge. This law enforcement badge gives the wearer an air of authority, as well as more confidence during gunfights.</description>
     <recipeMaker>
-      <researchPrerequisite>RWP_LawEnforcement</researchPrerequisite>
+      <researchPrerequisite>RWP_WesternApparel</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Accessories/Display/GoldSheriffBadge</texPath>
