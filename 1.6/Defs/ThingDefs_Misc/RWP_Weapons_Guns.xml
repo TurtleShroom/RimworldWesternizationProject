@@ -25,6 +25,9 @@
     <techLevel>Industrial</techLevel>
     <tradeTags>
       <li>RWP_Gear</li>
+	  <li>Gun</li>
+	  <li>Weapon</li>
+	  <li>WeaponRanged</li>
     </tradeTags>
     <thingCategories>
       <li>WeaponsRanged</li>

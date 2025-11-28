@@ -5,6 +5,8 @@
     <smeltable>true</smeltable>
     <tradeTags>
       <li>RWP_Gear</li>
+	  <li>Weapon</li>
+	  <li>WeaponMelee</li>
     </tradeTags>
     <thingCategories>
       <li>WeaponsMelee</li>
